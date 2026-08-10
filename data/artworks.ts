@@ -88,6 +88,17 @@ export const artworks: Artwork[] = [
     description:
       "L’enfant intérieur et le singe instinctif font face à des apparitions holographiques. Ce rite de passage cherche à libérer l’esprit des entraves du passé.",
   },
+
+ {
+  slug: "i-may-be-insignificant-or-i-may-not-be",
+  number: "08",
+  title: "Je peux être insignifiante, ou peut-être pas",
+  year: "2026",
+  medium: "Peinture à l’huile",
+  size: "130 × 97 cm",
+  image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg",
+  description:
+    "Pour moi, les autres existent comme un arrière-plan flou et indistinct. Mais pour eux, je peux moi aussi n’être qu’une présence lointaine, presque effacée.",
+},
  
 ];
-

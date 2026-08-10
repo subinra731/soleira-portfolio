@@ -87,4 +87,15 @@ export const englishArtworks: EnglishArtwork[] = [
     description:
       "The inner child and the instinctive monkey confront holographic apparitions. This rite of passage seeks to free the spirit from the constraints of the past.",
   },
+  {
+    slug: "i-may-be-insignificant-or-i-may-not-be",
+    number: "08",
+    title: "I May Be Insignificant or I May Not Be",
+    year: "2026",
+    medium: "Oil on canvas",
+    size: "130 × 97 cm",
+    image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg",
+    description:
+      "To me, others exist as a blurred and indistinct background. But to them, I too may exist in the same way.",
+  },
 ];

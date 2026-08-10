@@ -53,7 +53,7 @@ export default function Home() {
         </div>
 
         <div className="home-grid">
-          {artworks.slice(0, 4).map((artwork) => (
+          {artworks.slice(-4).reverse().map((artwork) => (
             <Link
               href={`/works/${artwork.slug}`}
               className="art-card"

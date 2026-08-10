@@ -87,4 +87,15 @@ export const koreanArtworks: KoreanArtwork[] = [
     description:
       "내면의 아이와 본능적인 원숭이가 홀로그램처럼 나타난 형상들과 마주한다. 이 통과의례는 과거의 속박에서 정신을 해방하려는 시도를 담고 있다.",
   },
+  {
+    slug: "i-may-be-insignificant-or-i-may-not-be",
+    number: "08",
+    title: "나는 하찮을 수도 아닐 수도 있다",
+    year: "2026",
+    medium: "캔버스에 유채",
+    size: "130 × 97 cm",
+    image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg",
+    description:
+      "나에게 타인은 희미하게 흐려진 배경으로 존재한다. 그러나 타인에게도 나는 그럴 수 있다.",
+  },
 ];

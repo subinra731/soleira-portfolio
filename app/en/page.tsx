@@ -50,7 +50,7 @@ export default function EnglishPage() {
         </div>
 
         <div className="home-grid">
-          {englishArtworks.slice(0, 4).map((artwork) => (
+       {englishArtworks.slice(-4).reverse().map((artwork) => (
             <Link
               href={`/en/works/${artwork.slug}`}
               className="art-card"

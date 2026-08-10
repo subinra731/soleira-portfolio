@@ -52,7 +52,7 @@ export default function KoreanHomePage() {
         </div>
 
         <div className="home-grid">
-          {koreanArtworks.slice(0, 4).map((artwork) => (
+         {koreanArtworks.slice(-4).reverse().map((artwork) => (
             <Link
               href={`/kr/works/${artwork.slug}`}
               className="art-card"
