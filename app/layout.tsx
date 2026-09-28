@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { EB_Garamond, Inter } from "next/font/google";
+import { headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -18,24 +19,19 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: {
-    default: "SOLEIRA | Artiste contemporaine",
-    template: "%s | SOLEIRA",
-  },
-  description:
-    "Official portfolio of SOLEIRA, a Korean contemporary artist based in France.",
+  title: { default: "SOLEIRA | Artiste contemporaine", template: "%s | SOLEIRA" },
+  description: "Official portfolio of SOLEIRA, a Korean contemporary artist based in France.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const language = (await headers()).get("x-soleira-language") ?? "fr";
   return (
-    <html lang="fr">
+    <html lang={language}>
       <body className={`${cormorant.variable} ${inter.variable}`}>
-        <Header />
-        {children}
-        <Analytics />
-      </body>
+  <Header />
+  {children}
+  <Analytics />
+</body>
     </html>
   );
 }
