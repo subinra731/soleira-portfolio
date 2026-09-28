@@ -1,3 +1,4 @@
+import { pageMetadata, aboutTranslations } from "@/data/seo";
 import Image from "next/image";
 
 export default function AboutPage() {
@@ -57,3 +58,4 @@ export default function AboutPage() {
     </main>
   );
 }
+export const metadata = pageMetadata('About', 'Learn about SOLEIRA, a Korean contemporary artist based in France, and her artistic practice.', '/en/about', aboutTranslations);

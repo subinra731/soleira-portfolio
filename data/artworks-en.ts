@@ -94,7 +94,7 @@ export const englishArtworks: EnglishArtwork[] = [
     year: "2026",
     medium: "Oil on canvas",
     size: "130 × 97 cm",
-    image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg",
+    image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg?v=4",
     description:
       "To me, others exist as a blurred and indistinct background. But to them, I too may exist in the same way.",
   },

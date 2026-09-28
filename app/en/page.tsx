@@ -1,3 +1,4 @@
+import { pageMetadata, homeTranslations } from "@/data/seo";
 import Image from "next/image";
 import Link from "next/link";
 import { englishArtworks } from "@/data/artworks-en";
@@ -56,6 +57,24 @@ export default function EnglishPage() {
               className="art-card"
               key={artwork.slug}
             >
+              {artwork.slug === "i-may-be-insignificant-or-i-may-not-be" ? (
+              <div
+                className="art-image-wrap"
+                style={{ display: "grid", placeItems: "center" }}
+              >
+                <div style={{ width: "78%", padding: "3.5%", background: "#fff", boxSizing: "border-box" }}>
+                  <div style={{ position: "relative", aspectRatio: "130 / 97" }}>
+                    <Image
+                      src={artwork.image}
+                      alt={artwork.title}
+                      fill
+                      sizes="(max-width: 800px) 100vw, 50vw"
+                      style={{ objectFit: "contain", filter: "saturate(1.15) contrast(1.04)" }}
+                    />
+                  </div>
+                </div>
+              </div>
+              ) : (
               <div className="art-image-wrap">
                 <Image
                   src={artwork.image}
@@ -65,6 +84,7 @@ export default function EnglishPage() {
                   className="art-image"
                 />
               </div>
+              )}
 
               <div className="art-meta">
                 <span>{artwork.number}</span>
@@ -106,3 +126,4 @@ export default function EnglishPage() {
     </main>
   );
 }
+export const metadata = pageMetadata('SOLEIRA — Contemporary Artist in France', 'Explore paintings and selected works by SOLEIRA, a Korean contemporary artist based in France.', '/en', homeTranslations);

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { EB_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import { siteUrl } from "@/data/seo";
 
 const cormorant = EB_Garamond({
   subsets: ["latin"],
@@ -15,7 +16,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SOLEIRA — Contemporary Artist",
+  metadataBase: new URL(siteUrl),
+  title: { default: "SOLEIRA | Artiste contemporaine", template: "%s | SOLEIRA" },
   description: "Official portfolio of SOLEIRA, a Korean contemporary artist based in France.",
 };
 

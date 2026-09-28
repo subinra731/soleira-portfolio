@@ -96,7 +96,7 @@ export const artworks: Artwork[] = [
   year: "2026",
   medium: "Peinture à l’huile",
   size: "130 × 97 cm",
-  image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg",
+  image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg?v=4",
   description:
     "Pour moi, les autres existent comme un arrière-plan flou et indistinct. Mais pour eux, je peux moi aussi n’être qu’une présence lointaine, presque effacée.",
 },

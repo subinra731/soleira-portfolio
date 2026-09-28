@@ -94,7 +94,7 @@ export const koreanArtworks: KoreanArtwork[] = [
     year: "2026",
     medium: "캔버스에 유채",
     size: "130 × 97 cm",
-    image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg",
+    image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg?v=4",
     description:
       "나에게 타인은 희미하게 흐려진 배경으로 존재한다. 그러나 타인에게도 나는 그럴 수 있다.",
   },

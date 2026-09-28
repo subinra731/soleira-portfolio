@@ -1,3 +1,4 @@
+import { pageMetadata, aboutTranslations } from "@/data/seo";
 import Image from "next/image";
 
 export default function KoreanAboutPage() {
@@ -89,3 +90,4 @@ export default function KoreanAboutPage() {
     </main>
   );
 }
+export const metadata = pageMetadata('작가 소개', '프랑스에서 활동하는 한국 현대미술 작가 SOLEIRA의 작업과 이력을 소개합니다.', '/kr/about', aboutTranslations);

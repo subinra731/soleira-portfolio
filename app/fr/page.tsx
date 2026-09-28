@@ -1,3 +1,4 @@
+import { pageMetadata, homeTranslations } from "@/data/seo";
 import Image from "next/image";
 import Link from "next/link";
 import { artworks } from "@/data/artworks";
@@ -55,6 +56,24 @@ export default function FrenchPage() {
               className="art-card"
               key={artwork.slug}
             >
+              {artwork.slug === "i-may-be-insignificant-or-i-may-not-be" ? (
+              <div
+                className="art-image-wrap"
+                style={{ display: "grid", placeItems: "center" }}
+              >
+                <div style={{ width: "78%", padding: "3.5%", background: "#fff", boxSizing: "border-box" }}>
+                  <div style={{ position: "relative", aspectRatio: "130 / 97" }}>
+                    <Image
+                      src={artwork.image}
+                      alt={artwork.title}
+                      fill
+                      sizes="(max-width: 800px) 100vw, 50vw"
+                      style={{ objectFit: "contain", filter: "saturate(1.15) contrast(1.04)" }}
+                    />
+                  </div>
+                </div>
+              </div>
+              ) : (
               <div className="art-image-wrap">
                 <Image
                   src={artwork.image}
@@ -64,6 +83,7 @@ export default function FrenchPage() {
                   className="art-image"
                 />
               </div>
+              )}
 
               <div className="art-meta">
                 <span>{artwork.number}</span>
@@ -105,3 +125,4 @@ export default function FrenchPage() {
     </main>
   );
 }
+export const metadata = pageMetadata('SOLEIRA — Artiste contemporaine en France', 'Portfolio de SOLEIRA, artiste contemporaine coréenne basée en France. Découvrez ses peintures et sa démarche artistique.', '/fr', homeTranslations);
