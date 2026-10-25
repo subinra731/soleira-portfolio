@@ -118,7 +118,8 @@ export const englishArtworks: EnglishArtwork[] = [
     medium: "Oil on canvas",
     size: "100 × 50 cm",
     image: "/artworks/the-observer-after-death.jpg",
+    
     description:
-      "A reflection on death as a shift in the observer’s position. Between Earth and the universe, the work questions perception, existence, and the limits of our knowledge of the cosmos.",
+      "The lower layer of the cake symbolizes Earth, while the upper layer represents the universe. The space surrounding the cake lies outside the universe, and the triangle within it is a fragment of the artist’s own logic. The work imagines death as a change in the observer’s position, exploring the world as we perceive it and the unknown realms that may exist beyond it.",
   },
 ];

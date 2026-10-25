@@ -118,7 +118,9 @@ export const artworks: Artwork[] = [
     medium: "Peinture à l’huile sur toile",
     size: "100 × 50 cm",
     image: "/artworks/the-observer-after-death.jpg",
+    
     description:
-      "Une réflexion sur la mort comme déplacement du point de vue de l’observateur. Entre la Terre et l’univers, l’œuvre interroge la perception, l’existence et les limites de notre connaissance du cosmos.",
+      "La partie inférieure du gâteau symbolise la Terre, tandis que la partie supérieure représente l’univers. L’espace qui entoure le gâteau se situe à l’extérieur de l’univers, et le triangle qui s’y trouve est un fragment de la logique propre à l’artiste. L’œuvre imagine la mort comme un changement de position de l’observateur et explore le monde tel que nous le percevons, ainsi que les territoires inconnus qui pourraient exister au-delà.",
   },
 ];
+

@@ -118,7 +118,7 @@ export const koreanArtworks: KoreanArtwork[] = [
     medium: "캔버스에 유채",
     size: "100 × 50 cm",
     image: "/artworks/the-observer-after-death.jpg",
-    description:
-      "죽음을 관찰자의 위치가 이동하는 과정으로 바라본 작품이다. 지구와 우주 사이에서 인식과 존재, 그리고 아직 밝혀지지 않은 우주의 경계를 탐구한다.",
+       description:
+      "케이크의 아래층은 지구를, 위층은 우주를 상징한다. 케이크를 둘러싼 공간은 우주 밖이며, 그곳에 놓인 삼각형은 작가 자신의 논리의 한 조각이다. 작품은 죽음을 관찰자의 위치가 변화하는 사건으로 상상하며, 우리가 인식하는 세계와 그 바깥에 존재할지도 모르는 미지의 영역을 탐구한다.",
   },
 ];
