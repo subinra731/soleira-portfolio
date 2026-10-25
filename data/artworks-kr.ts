@@ -1,3 +1,4 @@
+
 export type KoreanArtwork = {
   slug: string;
   number: string;
@@ -97,5 +98,27 @@ export const koreanArtworks: KoreanArtwork[] = [
     image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg?v=4",
     description:
       "나에게 타인은 희미하게 흐려진 배경으로 존재한다. 그러나 타인에게도 나는 그럴 수 있다.",
+  },
+  {
+    slug: "instinct",
+    number: "09",
+    title: "본능",
+    year: "2026",
+    medium: "캔버스에 유채",
+    size: "54 × 73 cm",
+    image: "/artworks/instinct.jpg",
+    description:
+      "이성보다 앞서 존재하며 세계와의 관계를 형성하는 원초적인 힘, 본능을 회화적으로 탐구한 작품이다.",
+  },
+  {
+    slug: "the-observer-after-death",
+    number: "10",
+    title: "죽음 뒤의 관찰자 — 수억 살의 생일을 축하하며",
+    year: "2026",
+    medium: "캔버스에 유채",
+    size: "100 × 50 cm",
+    image: "/artworks/the-observer-after-death.jpg",
+    description:
+      "죽음을 관찰자의 위치가 이동하는 과정으로 바라본 작품이다. 지구와 우주 사이에서 인식과 존재, 그리고 아직 밝혀지지 않은 우주의 경계를 탐구한다.",
   },
 ];

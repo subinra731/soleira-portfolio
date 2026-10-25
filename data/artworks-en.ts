@@ -1,3 +1,4 @@
+
 export type EnglishArtwork = {
   slug: string;
   number: string;
@@ -97,5 +98,27 @@ export const englishArtworks: EnglishArtwork[] = [
     image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg?v=4",
     description:
       "To me, others exist as a blurred and indistinct background. But to them, I too may exist in the same way.",
+  },
+  {
+    slug: "instinct",
+    number: "09",
+    title: "Instinct",
+    year: "2026",
+    medium: "Oil on canvas",
+    size: "54 × 73 cm",
+    image: "/artworks/instinct.jpg",
+    description:
+      "A pictorial exploration of instinct, the primal force that precedes reason and shapes our relationship with the world.",
+  },
+  {
+    slug: "the-observer-after-death",
+    number: "10",
+    title: "The Observer After Death — Celebrating Hundreds of Millions of Years of Existence",
+    year: "2026",
+    medium: "Oil on canvas",
+    size: "100 × 50 cm",
+    image: "/artworks/the-observer-after-death.jpg",
+    description:
+      "A reflection on death as a shift in the observer’s position. Between Earth and the universe, the work questions perception, existence, and the limits of our knowledge of the cosmos.",
   },
 ];

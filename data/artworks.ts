@@ -1,3 +1,4 @@
+
 export type Artwork = {
   slug: string;
   number: string;
@@ -54,29 +55,28 @@ export const artworks: Artwork[] = [
     description:
       "Exploration de la frontière entre intérieur et extérieur. Un lustre domestique déplacé dans la nature interroge les zones de flottement de la psyché.",
   },
-
-   {
-  slug: "sapiens-1",
-  number: "05",
-  title: "Sapiens I",
-  year: "2026",
-  medium: "Peinture sur cuir",
-  size: "121 × 40 cm",
-  image: "/artworks/Sapiens1.jpg",
-  description:
-    "Dialogue entre cyborg et cuir organique. Une enquête sur l’instinct de survie originel et le processus d’évolution infini où la chair fusionne avec la machine.",
-},
-{
-  slug: "sapiens-8",
-  number: "06",
-  title: "Sapiens II",
-  year: "2026",
-  medium: "Peinture sur cuir",
-  size: "121 × 40 cm",
-  image: "/artworks/Sapiens8.jpg",
-  description:
-    "Dialogue entre cyborg et cuir organique. Une enquête sur l’instinct de survie originel et le processus d’évolution infini où la chair fusionne avec la machine.",
-},
+  {
+    slug: "sapiens-1",
+    number: "05",
+    title: "Sapiens I",
+    year: "2026",
+    medium: "Peinture sur cuir",
+    size: "121 × 40 cm",
+    image: "/artworks/Sapiens1.jpg",
+    description:
+      "Dialogue entre cyborg et cuir organique. Une enquête sur l’instinct de survie originel et le processus d’évolution infini où la chair fusionne avec la machine.",
+  },
+  {
+    slug: "sapiens-8",
+    number: "06",
+    title: "Sapiens II",
+    year: "2026",
+    medium: "Peinture sur cuir",
+    size: "121 × 40 cm",
+    image: "/artworks/Sapiens8.jpg",
+    description:
+      "Dialogue entre cyborg et cuir organique. Une enquête sur l’instinct de survie originel et le processus d’évolution infini où la chair fusionne avec la machine.",
+  },
   {
     slug: "funerailles-spirituelles",
     number: "07",
@@ -88,17 +88,37 @@ export const artworks: Artwork[] = [
     description:
       "L’enfant intérieur et le singe instinctif font face à des apparitions holographiques. Ce rite de passage cherche à libérer l’esprit des entraves du passé.",
   },
-
- {
-  slug: "i-may-be-insignificant-or-i-may-not-be",
-  number: "08",
-  title: "Je peux être insignifiante, ou peut-être pas",
-  year: "2026",
-  medium: "Peinture à l’huile",
-  size: "130 × 97 cm",
-  image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg?v=4",
-  description:
-    "Pour moi, les autres existent comme un arrière-plan flou et indistinct. Mais pour eux, je peux moi aussi n’être qu’une présence lointaine, presque effacée.",
-},
- 
+  {
+    slug: "i-may-be-insignificant-or-i-may-not-be",
+    number: "08",
+    title: "Je peux être insignifiante, ou peut-être pas",
+    year: "2026",
+    medium: "Peinture à l’huile",
+    size: "130 × 97 cm",
+    image: "/artworks/i-may-be-insignificant-or-i-may-not-be.jpg?v=4",
+    description:
+      "Pour moi, les autres existent comme un arrière-plan flou et indistinct. Mais pour eux, je peux moi aussi n’être qu’une présence lointaine, presque effacée.",
+  },
+  {
+    slug: "instinct",
+    number: "09",
+    title: "Instinct",
+    year: "2026",
+    medium: "Peinture à l’huile sur toile",
+    size: "54 × 73 cm",
+    image: "/artworks/instinct.jpg",
+    description:
+      "Une exploration picturale de l’instinct, cette force primitive qui précède la raison et façonne notre rapport au monde.",
+  },
+  {
+    slug: "the-observer-after-death",
+    number: "10",
+    title: "L’Observateur après la mort — Pour célébrer des centaines de millions d’années d’existence",
+    year: "2026",
+    medium: "Peinture à l’huile sur toile",
+    size: "100 × 50 cm",
+    image: "/artworks/the-observer-after-death.jpg",
+    description:
+      "Une réflexion sur la mort comme déplacement du point de vue de l’observateur. Entre la Terre et l’univers, l’œuvre interroge la perception, l’existence et les limites de notre connaissance du cosmos.",
+  },
 ];
